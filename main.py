@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException, status
 from models.db import db
 from models.models import Sheep
+from typing import List
 
 app = FastAPI()
 
